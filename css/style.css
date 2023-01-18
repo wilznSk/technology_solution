@@ -316,3 +316,29 @@ footer{
 .rs a:hover i{
     color: black;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #444444 ;
+    color: white;
+    align-items: start;
+    height: 50px;
+    padding-left: 50px;
+    display: inline-block;
+}
+.footer>div{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+.ftImagenes{
+    margin: 0 50;
+}
+.imgIconFooter{
+    height: 25px;
+    margin-left: 15px;
+}
